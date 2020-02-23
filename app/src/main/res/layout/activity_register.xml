@@ -35,7 +35,6 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 />
-
             <ImageView
                 android:id="@+id/imageView"
                 android:layout_width="60dp"
@@ -43,8 +42,8 @@
                 app:layout_constraintBottom_toBottomOf="@+id/image_profile"
                 app:layout_constraintEnd_toEndOf="@+id/image_profile"
                 app:srcCompat="@drawable/edit_icon"
+                android:onClick="handleChangeImage"
                 />
-
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/layout_fullname"
                 android:layout_width="0dp"
@@ -170,7 +169,6 @@
                     android:hint="About You"
                     android:inputType="textMultiLine"
                     />
-
             </com.google.android.material.textfield.TextInputLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
@@ -188,6 +186,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        android:onClick="submit"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -10,7 +10,7 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         >
 
         <androidx.constraintlayout.widget.Guideline
@@ -41,7 +41,7 @@
             android:layout_marginTop="16dp"
             android:layout_marginEnd="16dp"
             android:fontFamily="@font/futura_pt_demibold"
-            android:text="About Me"
+            android:text="@string/about_me"
             android:textColor="@color/colorTitle"
             android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -84,7 +84,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:fontFamily="@font/futura_pt_demibold"
-            android:text="Fullname"
+            android:text="@string/fullname"
             android:textAlignment="textStart"
             android:textSize="20sp"
             app:layout_constraintEnd_toStartOf="@+id/guideline2"
@@ -127,7 +127,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:fontFamily="@font/futura_pt_demibold"
-            android:text="Email"
+            android:text="@string/email"
             android:textAlignment="textStart"
             android:textSize="20sp"
             app:layout_constraintEnd_toStartOf="@+id/guideline2"
@@ -170,7 +170,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:fontFamily="@font/futura_pt_demibold"
-            android:text="Email"
+            android:text="@string/email"
             android:textAlignment="textStart"
             android:textSize="20sp"
             app:layout_constraintEnd_toStartOf="@+id/guideline2"
@@ -214,12 +214,13 @@
             android:layout_marginTop="16dp"
             android:layout_marginEnd="16dp"
             android:background="@drawable/btn_red_large"
-            android:text="Visit My Homepage"
+            android:text="@string/visit_my_homepage"
             android:textAllCaps="false"
             android:textColor="#FFFFFF"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/separator4"
+            android:onClick="handleHomePage"
             />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

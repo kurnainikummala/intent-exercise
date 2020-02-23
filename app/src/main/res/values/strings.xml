@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Intent Exercise</string>
+    <string name="about_me">About Me</string>
+    <string name="fullname">Fullname</string>
+    <string name="email_">Email</string>
+    <string name="email">Email</string>
+    <string name="visit_my_homepage">Visit My Homepage</string>
 </resources>
